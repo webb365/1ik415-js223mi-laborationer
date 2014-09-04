@@ -1,4 +1,4 @@
-1ik415-js223mi-laborationer
+Webbprogrammering på linnéuniversitet
 ===========================
 
 Laborationer som är en del av kursen webbprogrammering på linnéuniversitet 
