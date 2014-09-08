@@ -23,7 +23,24 @@
 				</ul>
 			</div>
 			<div class="content">
-					
+					<form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+					   <fieldset>
+					    <legend>Fråga</legend>
+					    Ärendetyp: 
+					    <select name="typ">
+						  <option>Support</option>
+						  <option>Faktura</option>
+						</select><br>
+					    Rubrik: <input name="rubrik" type="text"><br>
+					    Fråga: <textarea name="fraga"></textarea><br>
+					  </fieldset>	
+					   <fieldset>
+					    <legend>Information om dig</legend>
+						Kontakta mig via mail<input type="checkbox" name="mail"><br>
+						Kontakta mig via telefon<input type="checkbox" name="telefon">
+					  </fieldset>					 
+					 <input type="submit" value="Skicka frågan">				
+				    </form>
 			</div>
 			<div class="footer">
 				Copyright © 2014 <a href="http://webb365.se">Webb365.se</a>.
