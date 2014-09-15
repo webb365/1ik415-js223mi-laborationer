@@ -1,9 +1,5 @@
 /*
 http://www.responsivegridsystem.com
-
-
-
-
 */
 
 /*  SECTIONS  */
@@ -64,4 +60,9 @@ http://www.responsivegridsystem.com
 	.span_1_of_3 {
 		width: 100%;
 	}
+}
+
+
+*{
+	border: 2px solid black;
 }
