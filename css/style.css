@@ -1,11 +1,24 @@
+
 body{
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	font-weight: 300;
 }
+
 .container{
 	background-color: #ecf0f1;
 	width: 1140px;
 	margin: auto;
+}
+h2{
+	font-size: 20px;
+}
+small{
+	font-size: 12px;
+}
+div,li,iframe{
+	-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
 }
 .main-content {
 margin-top: 70px;
@@ -46,6 +59,7 @@ z-index: 2;
 .article{
 	background-color: #7f8c8d;
 	margin-bottom: 20px;
+	padding: 20px;
 }
 .article:last-child{
 	margin-bottom: 0;
