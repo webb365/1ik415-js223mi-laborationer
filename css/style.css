@@ -44,6 +44,12 @@ z-index: 2;
 ol{
 	list-style: none;
 }
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
 .menu li{
 	display: inline-table;
 	background-color: #3498db;
