@@ -9,6 +9,9 @@ body{
 	width: 1140px;
 	margin: auto;
 }
+h1{
+	font-size: 24px;
+}
 h2{
 	font-size: 20px;
 }
@@ -16,7 +19,7 @@ small{
 	font-size: 12px;
 }
 div,li,iframe{
-	-webkit-border-radius: 20px;
+-webkit-border-radius: 20px;
 -moz-border-radius: 20px;
 border-radius: 20px;
 }
@@ -26,10 +29,20 @@ margin-top: 70px;
 .content-other{
 margin-top: 70px;
 padding: 20px;	
+min-height: 350px;
 }
 .menu {
 position: absolute;
 z-index: 2;
+}
+#jag{
+	float: left;
+	height: 300px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+ol{
+	list-style: none;
 }
 .menu li{
 	display: inline-table;
@@ -71,5 +84,12 @@ z-index: 2;
 .footer{
 	margin-top: 20px;
 	padding: 20px;
+	text-align: center;
+}
+table, th, td {
+   border: 1px solid black;
+   padding: 15px;
+}
+.sub{
 	text-align: center;
 }
