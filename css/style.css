@@ -23,6 +23,10 @@ border-radius: 20px;
 .main-content {
 margin-top: 70px;
 }
+.content-other{
+margin-top: 70px;
+padding: 20px;	
+}
 .menu {
 position: absolute;
 z-index: 2;
