@@ -107,3 +107,16 @@ table, th, td {
 .sub{
 	text-align: center;
 }
+@media print {
+	body {
+		font-family: Georgia, serif;
+		background: none;
+		color: black;
+	}
+	iframe, .menu {
+		display: none;
+	}
+	a:after {
+		content: " [" attr(href) "] ";
+	}
+}
