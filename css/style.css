@@ -71,22 +71,25 @@ ol{
 }
 .menu  a {
 	text-decoration: none;
-	padding-left: 25px;
+	
 	width: 24px;
 	height: 24px;
 }
 .m1 {
 	background: url('../pics/sprite.png') no-repeat 0 -50px;
-
+padding-left: 25px;
 }
 .m2{
 	background: url('../pics/sprite.png') no-repeat 0 -192px;
+	padding-left: 25px;
 }
 .m3{
 	background: url('../pics/sprite.png') no-repeat 0 -97px;
+	padding-left: 25px;
 }
 .m4{
 	background: url('../pics/sprite.png') no-repeat 0 -288px;
+padding-left: 25px;
 }
 .menu ul{
 	display: none;
