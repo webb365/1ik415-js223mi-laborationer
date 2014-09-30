@@ -71,7 +71,22 @@ ol{
 }
 .menu  a {
 	text-decoration: none;
+	padding-left: 25px;
+	width: 24px;
+	height: 24px;
+}
+.m1 {
+	background: url('../pics/sprite.png') no-repeat 0 -50px;
 
+}
+.m2{
+	background: url('../pics/sprite.png') no-repeat 0 -192px;
+}
+.m3{
+	background: url('../pics/sprite.png') no-repeat 0 -97px;
+}
+.m4{
+	background: url('../pics/sprite.png') no-repeat 0 -288px;
 }
 .menu ul{
 	display: none;
@@ -113,7 +128,7 @@ table, th, td {
 		background: none;
 		color: black;
 	}
-	iframe, .menu {
+	.aside .content, .menu {
 		display: none;
 	}
 	a:after {
