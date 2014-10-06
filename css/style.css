@@ -45,7 +45,7 @@ z-index: 2;
 }
 #jag{
 	float: left;
-	height: 300px;
+	width: 300px;
 	padding-right: 20px;
 	padding-top: 20px;
 }
@@ -71,25 +71,37 @@ ol{
 }
 .menu  a {
 	text-decoration: none;
-	
 	width: 24px;
 	height: 24px;
+	background-repeat: no-repeat;
 }
 .m1 {
 	background: url('../pics/sprite.png') no-repeat 0 -50px;
 	padding-left: 25px;
 }
+.m1:hover {
+	 background-position: 0 0px;
+}
 .m2{
-	background: url('../pics/sprite.png') no-repeat 0 -192px;
+	background: url('../pics/sprite.png') no-repeat 0 -240px;
 	padding-left: 25px;
+}
+.m2:hover {
+	 background-position: 0 -192px;
 }
 .m3{
-	background: url('../pics/sprite.png') no-repeat 0 -97px;
+	background: url('../pics/sprite.png') no-repeat 0 -147px;
 	padding-left: 25px;
 }
+.m3:hover {
+	 background-position: 0 -97px;
+}
 .m4{
-	background: url('../pics/sprite.png') no-repeat 0 -288px;
+	background: url('../pics/sprite.png') no-repeat 0 -336px;
 padding-left: 25px;
+}
+.m4:hover {
+	 background-position: 0 -288px;
 }
 .menu ul{
 	display: none;
@@ -130,11 +142,42 @@ table, th, td {
 		font-family: Georgia, serif;
 		background: none;
 		color: black;
+		width: 1000px;
 	}
 	.aside .content, .menu {
 		display: none;
 	}
 	a:after {
 		content: " [" attr(href) "] ";
+	}
+}
+@media (max-width: 1172px){
+	.article{
+		width: 100%;
+	}
+	.container{
+		width:100%;
+	}
+	img,video{
+		width: 100%;
+	}
+	iframe{
+		width: 100%;
+	}
+}
+@media (max-width: 760px)  {
+	iframe{
+		display: none;
+	}
+	.menu li{
+		padding: 5px;
+	}
+	table{
+		width: 100%;
+		overflow-x: auto;
+		
+	}
+	table,th,td{
+		padding: 0;
 	}
 }
