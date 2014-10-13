@@ -137,6 +137,9 @@ table, th, td {
 .sub{
 	text-align: center;
 }
+.comment dd{
+	padding-left: 20px;
+}
 @media print {
 	body {
 		font-family: Georgia, serif;
