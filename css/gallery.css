@@ -1,0 +1,9 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+.bilder{
+	width: 70%;
+}
+.bilder img{ 
+ width: 200px;
+}
