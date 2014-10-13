@@ -3,7 +3,39 @@ body{
 }
 .bilder{
 	width: 70%;
+	 margin-top: 100px;
 }
 .bilder img{ 
  width: 200px;
 }
+
+.bilder a {
+	transform: rotate(8deg);
+	background-color: white;
+	width: 220px;
+	display: inline-block;
+	padding-top: 10px;
+	text-decoration: none;
+	text-align: center;
+	box-shadow: 11px 0px 20px 0px rgba(50, 50, 50, 0.62);
+	transition-duration: 2s;
+    transition-property: all;
+    color: gray;
+}
+
+.bilder a:nth-child(2n+1) {
+	transform: rotate(-10deg);
+	font-size: 1.5em;
+}
+
+.bilder a:nth-child(4n+4) {
+	transform: rotate(10deg);
+	font-size: 0.6em;
+
+}
+
+.bilder a:after {
+   content: attr(title);
+   display: block;
+}
+
